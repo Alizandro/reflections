@@ -10,3 +10,8 @@ Staging area offer possibility to control what files would be commited.
 How can you use the staging area to make sure you have one commit per logical change?
 We can check what changes are in staging area by using command
 git diff --staged
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If you would like to make some experimental build,
+or build that aimed only for some group of people and don't belong to official version.
+Branched can help to support different version easy, including adding bug fixes.
