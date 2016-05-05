@@ -19,3 +19,7 @@ Branched can help to support different version easy, including adding bug fixes.
 How do the diagrams help you visualize the branch structure?
 It helps me understand which commit belongs to whick branch
 and find out parent-to-child relationship between commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result contains changes made in both branches.
+In the diagram we mark two commits as a parents because they both are parents. And any commit is reachable from merged result.
