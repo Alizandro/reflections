@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Diff app shows changes in files.
+And looking through this changes helps to identify place with typo.
+Otherwise looking through entire code will be waste of time and extremely inefficient.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+In case of lose of some old version it will be almost impossible to restore some code that was implemented in it.
+Using entire history of project will help to do this.
+Otherwise it will be needed to re-implement that functionality again.
+Or if appeared that on some devices old version worked fine but there are issues with new version.
+It is much easier to find what was changed that lead to this behavior.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Git pros:
+you can be sure that commitment is done in right point with code able to compile and being logically finished
+Git cons:
+you can forget about making commitments
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Because Git was developed primarily for programmers in mind who need to commit entire multiple-files project.
+And Google Docs was developed for common users who rarely need multiple-files commit feature.
+
+How can you use the commands git log and git diff to view the history of files?
+Use "git log" command to see list of commits.
+Use "git diff" to compare to commits. And see list of added/removed strings.
+
+How might using version control make you more confident to make changes that could break something?
+Knowledget that I will be able to revert to previous version in case of error,
+will encourage me to experiment and make big changes in project without fear that I can make a mistake
+to find and fix which I will need to spend unormous ammount of time.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I would like to know how secure Git is and if it is pretty secure,
+I would like to move my Android app sources to Git.
