@@ -23,3 +23,10 @@ and find out parent-to-child relationship between commits.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result contains changes made in both branches.
 In the diagram we mark two commits as a parents because they both are parents. And any commit is reachable from merged result.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros:
+much more convenient
+fast
+Cons:
+doesn't understand details of what it doing: code can stop working as expected
