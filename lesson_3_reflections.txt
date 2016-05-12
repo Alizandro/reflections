@@ -22,3 +22,10 @@ int j = 3;
 END_NEW_FEATURE_NAME
 But Araxis merge approach pollute code dramatically.
 Git approach definitely MUCH better.
+
+When would you want to make changes in a separate branch rather than directly in master?
+If I'm the only one developer and changes are relatively simple, probably I would make them directly in the master branch.
+In other cases, if I need to get approval from another people or if I make a big changes, I would make them in a separate branches.
+
+What benefits does each approach have?
+It takes less efforts to use only master branch.
