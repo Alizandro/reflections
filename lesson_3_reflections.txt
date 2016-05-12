@@ -13,3 +13,12 @@ I would use branch when I would need to create experimental version of code or c
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 It gives you clue that something is changed on remote and may be you should merge while it is relatively easy to do.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Not such greate way is to use Araxis Merge and comment every change with BEGIN and END marks.
+For example:
+BEGIN_NEW_FEATURE_NAME
+int j = 3;
+END_NEW_FEATURE_NAME
+But Araxis merge approach pollute code dramatically.
+Git approach definitely MUCH better.
